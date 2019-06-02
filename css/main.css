@@ -1,0 +1,73 @@
+body {
+  background: #674baf url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+  color: #ffffff;
+}
+
+.nav__bar {
+  width: 100%;
+}
+
+.brand {
+  width: 50%;
+  margin: 35px 20px;
+}
+
+.brand img {
+  width: 115px;
+}
+
+.mockups {
+  width: 100%;
+  margin-bottom: 18rem;
+}
+
+.mock_wrapper {
+  height: 0px;
+  width: 360px;
+}
+
+.mock_wrapper img {
+  width: 315px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.text__area {
+  width: 100%;
+}
+
+.text__area h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 16px;
+}
+
+.text__area p {
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  padding: 0 25px;
+}
+
+.text__area a {
+  border-radius: 20px;
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 12px;
+  padding: 10px 75px;
+  display: block;
+  width: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__block {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
