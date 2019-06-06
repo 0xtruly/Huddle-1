@@ -59,7 +59,7 @@ body {
 
 .text__area a {
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 25px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.65);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.65);
   display: -webkit-box;
@@ -126,10 +126,10 @@ a.nav_social {
   }
   .mock_wrapper {
     height: 0px;
-    width: 360px;
+    width: 714px;
   }
   .mock_wrapper img {
-    width: 45rem;
+    width: calc(96% - -30px);
     display: block;
     margin: 0 auto;
     padding: 45px;
@@ -144,9 +144,10 @@ a.nav_social {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    margin: 4rem 5rem 0 0;
   }
   .text__area {
-    width: 100%;
+    width: 75vw;
   }
   .text__area h1 {
     font-size: 40px;
@@ -164,7 +165,10 @@ a.nav_social {
     margin: 5%;
   }
   .text_wrap {
-    margin: 7rem 5rem;
+    margin: 7rem 2rem;
+  }
+  a.nav_social {
+    padding: 8px;
   }
 }
 /*# sourceMappingURL=main.css.map */
